@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://steadfast-generosity-production-0b70.up.railway.app/api",
 });
 
 // Attach the JWT token (if present) to every outgoing request
